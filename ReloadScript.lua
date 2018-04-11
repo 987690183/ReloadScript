@@ -423,7 +423,6 @@ function ReloadScript.Run()
 		UpdateBeat:Remove(ReloadScript.mUpdatef)
 		ReloadScript.mUpdatef = nil
 	end
-	-- 初始化
 	ReloadScript.Init(FileNameList, {ReloadScript.Lua})
 
 	local curTime = os.time()
